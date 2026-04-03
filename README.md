@@ -18,3 +18,9 @@ A Finite State Machine (FSM) based traffic control system designed in Verilog. T
 
 ## 📊 Simulation Results
 The waveform shows that when `emergency_input` is triggered, the internal `timer` is immediately bypassed, holding the `light` at Green (`001`).
+## 🚀 How to Run
+I’ve documented the full setup and reproduction steps in this README, ensuring the simulation is accessible to anyone via Google Colab. 
+
+1. Click the **Open in Colab** badge.
+2. Run the installation cell (`!apt-get install iverilog`).
+3. Execute the simulation to generate the `emergency.vcd` file.
