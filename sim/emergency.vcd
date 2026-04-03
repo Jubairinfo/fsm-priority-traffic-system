@@ -1,0 +1,140 @@
+$date
+	Fri Apr  3 11:18:47 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_emergency $end
+$var wire 3 ! light [2:0] $end
+$var reg 1 " clk $end
+$var reg 1 # emergency_input $end
+$var reg 1 $ ped_button $end
+$var reg 1 % reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # emergency_input $end
+$var wire 1 $ ped_button $end
+$var wire 1 % reset $end
+$var reg 3 & light [2:0] $end
+$var reg 2 ' next_state [1:0] $end
+$var reg 2 ( state [1:0] $end
+$var reg 4 ) timer [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 )
+b0 (
+b1 '
+b1 &
+1%
+0$
+0#
+0"
+b1 !
+$end
+#5
+1"
+#10
+0"
+0%
+#15
+b1 )
+1"
+#20
+0"
+#25
+b10 )
+1"
+#30
+0"
+#35
+b11 )
+1"
+#40
+0"
+#45
+b100 )
+1"
+#50
+0"
+#55
+b101 )
+1"
+#60
+0"
+#65
+b110 )
+1"
+#70
+0"
+#75
+b111 )
+1"
+#80
+0"
+1#
+#85
+b0 )
+1"
+#90
+0"
+#95
+1"
+#100
+0"
+0#
+#105
+b1 )
+1"
+#110
+0"
+#115
+b10 )
+1"
+#120
+0"
+#125
+b11 )
+1"
+#130
+0"
+#135
+b100 )
+1"
+#140
+0"
+#145
+b101 )
+1"
+#150
+0"
+#155
+b110 )
+1"
+#160
+0"
+#165
+b111 )
+1"
+#170
+0"
+#175
+b1000 )
+1"
+#180
+0"
+#185
+b1001 )
+1"
+#190
+0"
+#195
+b1010 )
+1"
+#200
+0"
